@@ -12,7 +12,8 @@ from AlexaMusic.utils.database import (
 )
 from AlexaMusic.utils.decorators import AdminActual, language
 from AlexaMusic.utils.formatters import int_to_alpha
-from strings.filters import command
+
+
 # Command
 AUTH_COMMAND = get_command("AUTH_COMMAND")
 UNAUTH_COMMAND = get_command("UNAUTH_COMMAND")
